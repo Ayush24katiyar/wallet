@@ -1233,9 +1233,12 @@ version = "0.1.0"
 dependencies = [
  "axum",
  "bip39",
+ "derivation-path",
  "mutex",
  "rand 0.8.5",
+ "serde",
  "sha2",
+ "solana-derivation-path",
  "solana-sdk",
  "tokio",
 ]
